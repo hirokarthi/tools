@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
 
+
+BANNER = """
+
+
+ ____  _        _____ _           _           
+|  _ \(_)_ __  |  ___(_)_ __   __| | ___ _ __ 
+| | | | | '__| | |_  | | '_ \ / _` |/ _ \ '__|
+| |_| | | |    |  _| | | | | | (_| |  __/ |   
+|____/|_|_|    |_|   |_|_| |_|\__,_|\___|_|   
+
+Coded by Mr.Karthikeyan!
+
+
+"""
+
 import requests
 import argparse
 
@@ -22,6 +37,8 @@ def check_url(base_url, wordlist):
             print(f"Failed: Could not reach the URL '{full_url}'. Error: {e}")
 
 def main():
+
+    print(BANNER)
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Check if specific URLs are available on a server.')
     parser.add_argument('url', help='The base URL to check (e.g., https://example.com)')
