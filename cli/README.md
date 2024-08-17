@@ -23,7 +23,16 @@ This Python-based command-line interface (CLI) tool allows you to check the avai
    git clone <repository-url>
 
 ## Usage
+
    ```bash
    ./search.py <base_url> <word1> <word2> <word3> ...
+```
+## Example
 
+   ```bash
+./search.py https://example.com admin login dashboard
+```
+
+## Developed By
+Coded by Mr.Karthikeyan ❤️
 
