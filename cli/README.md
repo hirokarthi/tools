@@ -22,3 +22,6 @@ This Python-based command-line interface (CLI) tool allows you to check the avai
    ```bash
    git clone <repository-url>
 
+   ./search.py <base_url> <word1> <word2> <word3> ...
+
+
